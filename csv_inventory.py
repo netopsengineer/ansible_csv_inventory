@@ -6,7 +6,6 @@ import argparse
 import configparser
 import csv
 import sys
-import six
 
 try:
     FileNotFoundError
@@ -137,3 +136,4 @@ def csv_to_inventory(file, group_by_col, hostname_col):
 
 if __name__ == "__main__":
     main()
+
